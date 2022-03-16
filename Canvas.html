@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Canva</title>
+    <link rel="stylesheet" href="../Canva/canvas.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <header>
+      <div class="row text-centers">
+        <div class="browse col-md-5">
+          <label class="label" for="uploader"></label>
+          <input type="file" id="uploader" class="input col-md-offset-3">
+        </div>
+        <div class="txt col-md-7">
+          <input type="text" id="text1" placeholder="x co-ordinates">
+          <input type="text" id="text2" placeholder="y co-ordinates">
+          <input type="text" id="text" placeholder="Enter Text Here">
+        </div>
+      </div>
+    </header>
+    <div class="canva text-center">
+      <canvas id="canvas"></canvas>
+    </div>
+    <footer>
+      <button class="btn btn-primary col-md-offset-5" id="download">Download Image</button>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudfare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="../Canva/canvas.js"></script>
+  </body>
+</html>
